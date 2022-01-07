@@ -14,6 +14,8 @@
     sudo curl -sSL https://get.docker.com | sh
     sudo usermod -aG docker $USER
     sudo apt install -y docker-compose
+### Install
+    git clone https://github.com/AzagraMac/AdGuardDocker.git
 
 ### Running
     docker-compose up -d
