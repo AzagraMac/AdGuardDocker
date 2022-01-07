@@ -52,6 +52,26 @@
 | Torrent | [Link](https://blocklistproject.github.io/Lists/torrent.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/torrent-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/torrent-ags.txt) | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> |  |
 | Tracking | [Link](https://blocklistproject.github.io/Lists/tracking.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tracking-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | Sites dedicated to tracking and gathering visitor info | [FOIA.Services](https://foia.services) |   
 
+### Configuración para tener habilitado DNS over TLS y DNS over HTTPS
+
+En ajustes de AdGuard:
+- Upstream DNS servers, copiar estas URLs:
+```
+https://dns.cloudflare.com/dns-query
+tls://1dot1dot1dot1.cloudflare-dns.com
+```
+y marcar la opcion: "**Parallel requests**", por defecto esta marcada "**Load-balancing**"
+
+- Bootstrap DNS servers, metemos las DNS de Cloudflared tanto en IPv4 como IPv6:
+```
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+```
+
+- DNS server configuration, marcamos la opcion de "**Enable DNSSEC**"
+
 ### Comprobar tu SelfHosted:
 
 <details>
