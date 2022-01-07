@@ -2,7 +2,12 @@
 <p align="center">
     <img src="https://brands.home-assistant.io/_/adguard/logo.png" alt="PNG" height="120px"  />
     <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Symbol.png" alt="PNG" height="170px" />
+    <h3 align="center">Privacy protection center for you and your devices</h3>
+<p align="center">
+  Free and open source, powerful network-wide ads & trackers blocking DNS server.
 </p>
+</p>
+
 
 ### Requeriments
 - Service docker running
