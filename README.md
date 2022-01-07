@@ -65,7 +65,7 @@
 
 ### Configuración para tener habilitado DNS over TLS y DNS over HTTPS
 
-En ajustes de AdGuard:
+En ajustes de AdGuard, DNS Settings:
 - Upstream DNS servers, copiar estas URLs:
 ```
 https://dns.cloudflare.com/dns-query
