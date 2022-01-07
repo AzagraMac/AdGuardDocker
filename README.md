@@ -1,8 +1,6 @@
 ## Docker AdGuard Home
 
 ### Requeriments
-- Raspberry Pi / NanoPi NEO2 or NEO3
-- Raspbian OS / DietPi
 - Service docker running
 
 ### Install Docker
@@ -53,3 +51,72 @@
 | TikTok | [Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt) | Copy and pasted into your device |  |
 | Torrent | [Link](https://blocklistproject.github.io/Lists/torrent.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/torrent-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/torrent-ags.txt) | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> |  |
 | Tracking | [Link](https://blocklistproject.github.io/Lists/tracking.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tracking-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | Sites dedicated to tracking and gathering visitor info | [FOIA.Services](https://foia.services) |   
+
+### Comprobar tu SelfHosted:
+
+<details>
+<summary>fivefilters:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de fivefilters</Original>
+
+<p>  &nbsp;&nbsp;https://blockads.fivefilters.org/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>d3ward:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de [d3ward](https://d3ward.github.io/toolz/)</Original>
+
+<p>  &nbsp;&nbsp;https://d3ward.github.io/toolz/adblock.html</p>
+</details>
+&nbsp;
+
+<details>
+<summary>canyoublockit:</summary>
+
+<Original>&nbsp;Pagina para comprobar tu selfhosted de canyoublockit</Original>
+
+<p>  &nbsp;&nbsp;https://canyoublockit.com/</p>
+</details>
+&nbsp;
+
+### Comprobar DoH, DoT y DDNSSEC:
+
+<details>
+<summary>1.1.1.1 de Cloudflare:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de 1.1.1.1 de Cloudflare</Original>
+
+<p>  &nbsp;&nbsp;https://1.1.1.1/help</p>
+</details>
+&nbsp;
+
+<details>
+<summary>Tenta VPN Browser:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de Tenta VPN Browser</Original>
+
+<p>  &nbsp;&nbsp;https://tenta.com/test/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>Cloudflare:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado de Cloudflare</Original>
+
+<p>  &nbsp;&nbsp;https://www.cloudflare.com/es-es/ssl/encrypted-sni/</p>
+</details>
+&nbsp;
+
+<details>
+<summary>DNSSEC Resolver Test:</summary>
+
+<Original>&nbsp;Pagina para comprobar cifrado DNSSEC por Matthäus Wander</Original>
+
+<p>  &nbsp;&nbsp;http://dnssec.vs.uni-due.de/</p>
+<p>  &nbsp;&nbsp;http://www.dnssec-or-not.com/</p>
+<p>  &nbsp;&nbsp;http://en.conn.internet.nl/connection/</p>
+</details>
+&nbsp;
