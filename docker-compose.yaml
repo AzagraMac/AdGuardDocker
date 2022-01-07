@@ -28,4 +28,3 @@ services:
       - '/root/docker/adguardhome/conf/:/opt/adguardhome/conf/'
     cap_add:
       - NET_ADMIN
- 
