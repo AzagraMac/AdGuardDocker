@@ -1,4 +1,8 @@
 ## Docker AdGuard Home
+<p align="center">
+    <img src="https://brands.home-assistant.io/_/adguard/logo.png" alt="PNG" height="120px"  />
+    <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Symbol.png" alt="PNG" height="170px" />
+</p>
 
 ### Requeriments
 - Service docker running
